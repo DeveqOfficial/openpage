@@ -50,19 +50,13 @@ public class OpenPage {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(read.xpath("user")))).sendKeys(user);
         wait.until(ExpectedConditions.elementToBeClickable(By.id(read.xpath("pass")))).sendKeys(pass);
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(read.xpath("login")))).click();
-        try {
-            element = driver.findElement(By.xpath(read.xpath("success")));
-        }catch (Exception e){
-            log.info("Error");
-        }
+        element = driver.findElement(By.xpath(read.xpath("success")));
     }
 
     @Entonces("valido que el logueo fue exitoso")
-    public void then() throws NullPointerException{
-        if (element.getText().equals(read.text("Assert04"))){
-            log.info(read.text("Assert02"));
-        }else {
-            log.error(read.text("Assert03"));
+    public void then() throws NullPointerException {
+        if (element.getText().equals(read.text("Assert04"))) {
+            System.out.println(read.text("Assert02"));
         }
     }
 }
