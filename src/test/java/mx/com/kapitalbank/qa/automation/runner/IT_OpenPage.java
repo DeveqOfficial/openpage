@@ -8,5 +8,5 @@ import io.cucumber.testng.CucumberOptions;
         features = "classpath:features/unitary/openpage.feature",
         plugin = {"pretty"}
 )
-public class IT_Page extends AbstractTestNGCucumberTests {
+public class IT_OpenPage extends AbstractTestNGCucumberTests {
 }
