@@ -1,4 +1,4 @@
-package mx.com.kapitalbank.qa.automation.page;
+package mx.com.kapitalbank.qa.automation.steps.unitary;
 
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
@@ -8,7 +8,6 @@ import mx.com.kapitalbank.qa.automation.configuration.ConfigurationSpring;
 import mx.com.kapitalbank.qa.automation.dto.readproperties.ReadProperties;
 import mx.com.kapitalbank.qa.automation.dto.screenshot.TakeScreenshot;
 import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -22,7 +21,7 @@ import java.io.IOException;
 
 @CucumberContextConfiguration
 @ContextConfiguration(classes = ConfigurationSpring.class)
-public class OpenPage {
+public class OpenPageSteps {
     @Autowired
     @Qualifier("webdriver")
     private WebDriver driver;

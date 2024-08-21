@@ -1,4 +1,5 @@
-mx\com\kapitalbank\qa\automation\runner\IT_Page.class
 mx\com\kapitalbank\qa\automation\dto\readproperties\ReadProperties.class
-mx\com\kapitalbank\qa\automation\page\OpenPage.class
+mx\com\kapitalbank\qa\automation\runners\cucumber\IT_OpenPage.class
+mx\com\kapitalbank\qa\automation\steps\unitary\OpenPageSteps.class
 mx\com\kapitalbank\qa\automation\configuration\ConfigurationSpring.class
+mx\com\kapitalbank\qa\automation\dto\screenshot\TakeScreenshot.class

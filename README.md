@@ -8,10 +8,8 @@ This project automates logging into a web page
 * Plugin feature
 
 ### Execution
+`To run the project you must run the runner class or you can run the "feature" file.`
 
-[You can run the project by double clicking on the .bat file (on Windows) ]()
+`In the "feature" file you can add or modify the information for logging into the website.`
 
-_Before running the project, make sure to install the dependencies in the POM file. or run the bat file to avoid installations_
-
-### Changes:
-V1
+`Before running the project, make sure to install the dependencies in the POM file.`
